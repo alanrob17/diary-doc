@@ -1,3 +1,25 @@
+# Alan's Diary
+
+## 01-05-20
+
+### My internet stopped working
+
+I was working on my computer today when I needed to search for a topic on Google. To my surprise the internet had stopped working. I quickly checked on another device and found that the internet was working there.
+
+It was just my computer with the problem.
+
+I have had this problem in the past and use ``ipconfig`` to fix it.
+
+The commands are:
+
+```
+  ipconfig /registerdns
+  ipconfig /release
+  ipconfig /renew
+```
+
+The part that I always forget to do is reboot my computer after I do the *renew*. If you don't do this it doesn't work!
+
 ## 21-04-20
 
 ### Working with JavaScript - Variable Type errors
